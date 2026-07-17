@@ -16,7 +16,7 @@ Bir telekom operatörünün müşteri kaybını (churn) önceden tahmin eden uç
 ## Kurulum
 
 ```bash
-git clone https://github.com/<kullanici-adi>/telco-churn-prediction.git
+git clone 
 cd telco-churn-prediction
 python -m venv venv
 source venv/bin/activate      
