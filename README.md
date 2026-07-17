@@ -1,6 +1,6 @@
 # Telekom Müşteri Kaybı (Churn) Tahmin Modeli
 
-Bir telekom operatörünün müşteri kaybını (churn) önceden tahmin eden uçtan uca bir makine öğrenmesi projesi. Veri ön işleme, öznitelik mühendisliği, çoklu model karşılaştırması, SHAP tabanlı yorumlanabilirlik analizi, FastAPI ile deploy ve Streamlit demo arayüzünü kapsar.
+Bir telekom operatörünün müşteri kaybını önceden tahmin eden uçtan uca bir makine öğrenmesi projesi. Veri ön işleme, öznitelik mühendisliği, çoklu model karşılaştırması, SHAP tabanlı yorumlanabilirlik analizi, FastAPI ile deploy ve Streamlit demo arayüzünü kapsar.
 
 ## Demo 
 
