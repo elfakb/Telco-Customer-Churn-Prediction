@@ -1,0 +1,11 @@
+feature,mean_abs_shap
+is_month_to_month,0.5633301
+tenure,0.42169192
+has_no_tech_support,0.22969082
+Contract_Two year,0.18761495
+is_fiber_optic,0.1802318
+avg_monthly_spend,0.14479
+PaperlessBilling_Yes,0.11889612
+MonthlyCharges,0.10857143
+OnlineSecurity_Yes,0.10596724
+is_electronic_check,0.0984947

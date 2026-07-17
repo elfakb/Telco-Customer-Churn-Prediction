@@ -1,0 +1,9 @@
+
+1-uvicorn api.main:app --reload --port 8000
+
+2- fastapi çalıştırma : uvicorn api.main:app --reload --port 8000
+
+3- python train.py
+4-python shap_analysis.py
+
+3- streamlit run app.py
