@@ -2,6 +2,15 @@
 
 Bir telekom operatörünün müşteri kaybını (churn) önceden tahmin eden uçtan uca bir makine öğrenmesi projesi. Veri ön işleme, öznitelik mühendisliği, çoklu model karşılaştırması, SHAP tabanlı yorumlanabilirlik analizi, FastAPI ile deploy ve Streamlit demo arayüzünü kapsar.
 
+## Demo 
+
+
+https://github.com/user-attachments/assets/4aefadfc-bd3c-4c75-aea9-943465f56854
+
+
+
+
+
 ## Veri Seti
 
 | | |
