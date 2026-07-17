@@ -11,43 +11,6 @@ Bir telekom operatörünün müşteri kaybını (churn) önceden tahmin eden uç
 | **Hedef değişken** | `Churn` (Yes / No), pozitif sınıf oranı ~%26.5 |
 | **Değişken grupları** | Demografik bilgiler · Abonelik/sözleşme · Aldığı servisler · Ücretlendirme |
 
-#
-
-## Kurulum
-
-```bash
-git clone 
-cd telco-churn-prediction
-python -m venv venv
-source venv/bin/activate      
-pip install -r requirements.txt
-```
-
-
-## Projeyi kullanma 
-
-```bash
-# 1) Veriyi data/ klasörüne koy (Kaggle'dan indir)
-#    -> data/WA_Fn-UseC_-Telco-Customer-Churn.csv
-
-# 3) Öznitelik mühendisliği
-python src/feature_engineering.py
-
-# 4) Model eğitimi ve karşılaştırma (LR, LR+SMOTE, RF, XGBoost)
-python src/train.py
-
-# 5) SHAP analizi ve görselleştirmeler
-python src/shap_analysis.py
-
-# 6) API'yi ayağa kaldır (proje kökünden)
-uvicorn api.main:app --reload --port 8000
-# -> Swagger UI: http://localhost:8000/docs
-
-# 7) Streamlit arayüzünü aç (yeni bir terminalde)
-streamlit rstreamlit_app./app.py
-```
-
-
 
 ### Feature Engineering
 
@@ -128,3 +91,40 @@ En etkili faktör **sözleşme tipi** (ay-ay sözleşme), ikinci en güçlü sin
 - 💳 **Otomatik ödemeye geçiş teşviki**
 - 🔄 **Modelin CRM'e entegrasyonu** — aylık risk skorlaması ve otomatik yönlendirme
 - 📊 **Model drift takibi** — 3-6 ayda bir yeniden eğitim
+
+
+
+## Kurulum
+
+```bash
+git clone 
+cd telco-churn-prediction
+python -m venv venv
+source venv/bin/activate      
+pip install -r requirements.txt
+```
+
+
+## Projeyi kullanma 
+
+```bash
+# 1) Veriyi data/ klasörüne koy (Kaggle'dan indir)
+#    -> data/WA_Fn-UseC_-Telco-Customer-Churn.csv
+
+# 3) Öznitelik mühendisliği
+python src/feature_engineering.py
+
+# 4) Model eğitimi ve karşılaştırma (LR, LR+SMOTE, RF, XGBoost)
+python src/train.py
+
+# 5) SHAP analizi ve görselleştirmeler
+python src/shap_analysis.py
+
+# 6) API'yi ayağa kaldır (proje kökünden)
+uvicorn api.main:app --reload --port 8000
+# -> Swagger UI: http://localhost:8000/docs
+
+# 7) Streamlit arayüzünü aç (yeni bir terminalde)
+streamlit rstreamlit_app./app.py
+```
+
